@@ -1,0 +1,35 @@
+Dica: Sempre fazer um passo a passo
+
+pyautogui usado para controlar mouse teclado e tela
+
+pyautogui.PAUSE = 1 pausa geral de 1 segundo
+
+pyautogui.click  -->clicar
+
+pyautogui.click(,button = "right")  -->clicar com botao direito
+
+pyautogui.write  --> escrever
+
+pyautogui.press  --> pressionar
+
+pyautogui.hotkey  --> atalho
+
+pyperclip -- > serve para caractere s especiais
+
+time.sleep(5) --> da uma pausa de 5 segndos
+
+pyautogui.position() pega posição do mouse da tela
+
+pandas permite trazer bases de dados eg excel e analisar no python
+
+panda.read_ARQUIVO(r"C:\Users\Dante\Downloads\Vendas - Dez.xlsx")  **SEMPRE BOTA UM R(raw) ANTES PQ CARACTERES EM LETRA MAIUSCULA SAO ESPECIAIS
+
+nome da coluna vc passa entre [""] e .sum() pra somar os valores
+
+import pandas as pd isso da um apelido
+
+usar tres aspas """  """ vai considerar um texto bonitinho com espaços
+
+usar f (format) antes do texto permite com que voce mencione variaveis colocando elas entre chaves {}
+
+O faturamento de ontem foi de: R${faturamento:,.2f}  formato para decimal
