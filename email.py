@@ -14,7 +14,7 @@ pyautogui.hotkey("ctrl","v")
 pyautogui.press("enter")
 
 # Passo 2: Navegar ate o local do relatorio  (entrar na pasta Exportar)
-time.sleep(5)
+time.sleep(8)
 pyautogui.click(x=499, y=323, clicks=2)
 
 
@@ -23,7 +23,7 @@ time.sleep(1.5)
 pyautogui.click(x=500, y=319)
 pyautogui.click(x=1660, y=187)
 pyautogui.click(x=1309, y=693)
-time.sleep(3)
+time.sleep(3.5)
 pyautogui.click(x=1710, y=1036)
 
 
@@ -49,7 +49,7 @@ time.sleep(5)
 
 ##clicar no botao escrever
 pyautogui.click(x=228, y=181)
-time.sleep(10)
+time.sleep(13)
 
 ##preencher as informacoes do email
 #destinatario
